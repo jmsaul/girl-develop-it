@@ -152,8 +152,7 @@ body {
 * LIST ITEMS
 * @author: rlewis37
 *********************************************/
-li .fragment .visible {
-  margin: 20px 0;
+.reveal li.fragment {
+  margin-bottom: 20px;
 }
-
 /*# sourceMappingURL=gdicool.css.map */
