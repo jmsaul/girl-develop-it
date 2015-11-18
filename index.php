@@ -35,18 +35,19 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<header>
-				<div class="container">
-					<h1>Girl Develop It ABQ Class Materials</h1>
+				<div class="container-fluid">
+					<img class="img-responsive logo" src="intro-web-concepts/css/images/white-logo.png" alt="girl develop it logo">
+					<!--<div class="header-text">Class Materials</div>-->
 				</div>
 			</header>
 			<main>
 				<div class="container">
-					<section>
+					<section class="well">
 						<h2>Intro to Web Concepts</h2>
 						<a href="/intro-web-concepts" class="btn btn-info btn-lg">Slides</a>
 						<a href="/intro-web-concepts" class="btn btn-default btn-lg">Supplement (pdf)</a>
 					</section>
-					<section>
+					<section class="well">
 						<h2>Intro to HTML</h2>
 						<p>Coming Soon.</p>
 					</section>
@@ -55,7 +56,14 @@
 		</div>
 		<footer>
 			<div class="container">
-
+				<div class="row">
+					<div class="col-sm-6 social-icons">
+						social media icons here
+					</div>
+					<div class="col-sm-6">
+						<img class="img-responsive logo" src="intro-web-concepts/css/images/pink-logo.png" alt="girl develop it logo">
+					</div>
+				</div>
 			</div>
 		</footer>
 	</body>
