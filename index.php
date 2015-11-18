@@ -28,11 +28,35 @@
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
 		<title>Girl Develop It Class Materials</title>
 	</head>
-	<body>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<header>
+				<div class="container">
+					<h1>Girl Develop It ABQ Class Materials</h1>
+				</div>
+			</header>
+			<main>
+				<div class="container">
+					<section>
+						<h2>Intro to Web Concepts</h2>
+						<a href="/intro-web-concepts" class="btn btn-info btn-lg">Slides</a>
+						<a href="/intro-web-concepts" class="btn btn-default btn-lg">Supplement (pdf)</a>
+					</section>
+					<section>
+						<h2>Intro to HTML</h2>
+						<p>Coming Soon.</p>
+					</section>
+				</div>
+			</main>
+		</div>
+		<footer>
+			<div class="container">
 
+			</div>
+		</footer>
 	</body>
 </html>
