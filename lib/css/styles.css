@@ -26,6 +26,10 @@ footer .logo {
 	}
 }
 
+footer a:hover {
+	text-decoration: none;
+}
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
