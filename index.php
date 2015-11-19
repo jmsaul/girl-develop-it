@@ -44,8 +44,8 @@
 				<div class="container">
 					<section class="well">
 						<h2>Intro to Web Concepts</h2>
-						<a href="/intro-web-concepts" class="btn btn-info btn-lg">Slides</a>
-						<a href="/intro-web-concepts" class="btn btn-default btn-lg">Supplement (pdf)</a>
+						<a href="/intro-web-concepts" class="btn btn-info btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+						<a href="/intro-web-concepts" class="btn btn-default btn-lg"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 					</section>
 					<section class="well">
 						<h2>Intro to HTML</h2>
@@ -58,7 +58,27 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 social-icons">
-						social media icons here
+						<!--twitter-->
+						<a href="#" target="_blank">
+							<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x color-tw-blue"></i>
+							<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+						</span>
+						</a>
+						<!--github-->
+						<a href="#" target="_blank">
+							<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x color-gray"></i>
+							<i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+						</span>
+						</a>
+						<!--website-->
+						<a href="#" target="_blank">
+							<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x color-pink"></i>
+							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+						</span>
+						</a>
 					</div>
 					<div class="col-sm-6">
 						<img class="img-responsive logo" src="intro-web-concepts/css/images/pink-logo.png" alt="girl develop it logo">
