@@ -35,7 +35,7 @@
 	<body class="sfooter">
 		<div class="sfooter-content">
 			<header>
-				<div class="container-fluid">
+				<div class="container">
 					<img class="img-responsive logo" src="intro-web-concepts/css/images/white-logo.png" alt="girl develop it logo">
 					<!--<div class="header-text">Class Materials</div>-->
 				</div>
@@ -48,7 +48,7 @@
 						<a href="/intro-web-concepts" class="btn btn-default btn-lg"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 					</section>
 					<section class="well">
-						<h2>Intro to HTML</h2>
+						<h2>Intro to HTML &amp; CSS Series</h2>
 						<p>Coming Soon.</p>
 					</section>
 				</div>
