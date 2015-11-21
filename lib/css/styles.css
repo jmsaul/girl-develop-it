@@ -31,6 +31,16 @@ footer a:hover {
 	text-decoration: none;
 }
 
+div.social-icons {
+	margin-bottom: 20px;
+}
+
+.social-icn[alt="meetup"] {
+	width: 40px;
+	padding-top: 3px;
+	margin-left: 3px;
+}
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/

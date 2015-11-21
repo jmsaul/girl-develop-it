@@ -59,25 +59,29 @@
 				<div class="row">
 					<div class="col-sm-6 social-icons">
 						<!--twitter-->
-						<a href="#" target="_blank">
+						<a href="https://twitter.com/GDIABQ" target="_blank">
 							<span class="fa-stack fa-lg">
 							<i class="fa fa-circle fa-stack-2x color-tw-blue"></i>
 							<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 						</span>
 						</a>
 						<!--github-->
-						<a href="#" target="_blank">
+						<a href="https://github.com/girldevelopit" target="_blank">
 							<span class="fa-stack fa-lg">
 							<i class="fa fa-circle fa-stack-2x color-gray"></i>
 							<i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
 						</span>
 						</a>
 						<!--website-->
-						<a href="#" target="_blank">
+						<a href="https://www.girldevelopit.com/" target="_blank">
 							<span class="fa-stack fa-lg">
 							<i class="fa fa-circle fa-stack-2x color-pink"></i>
 							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
 						</span>
+						</a>
+						<!--meetup-->
+						<a href="http://www.meetup.com/Girl-Develop-It-Albuquerque/" target="_blank">
+							<img src="lib/img/meetup-white.svg" alt="meetup" class="social-icn">
 						</a>
 					</div>
 					<div class="col-sm-6">
