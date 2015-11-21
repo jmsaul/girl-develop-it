@@ -1133,4 +1133,11 @@ body {
 	visibility: hidden;
 }
 
-
+/*********************************************
+ * CUSTOM EDITS
+ * @author rlewis37@cnm.edu
+ *********************************************/
+.reveal .slides section .fragment.visible {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
