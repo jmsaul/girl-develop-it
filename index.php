@@ -51,6 +51,7 @@
 						<h2>Intro to HTML &amp; CSS Series</h2>
 						<p>Coming Soon.</p>
 					</section>
+					<p>The source code for all GDI class materials featured here is freely available on GitHub: <a href="https://github.com/rlewis2892/girl-develop-it" target="_blank">https://github.com/rlewis2892/girl-develop-it</a></p>
 				</div>
 			</main>
 		</div>
