@@ -74,11 +74,10 @@
 							</div>
 						</div>
 					</section>
-					<aside class="panel panel-default">
-						<div class="panel-body">
-							<i class="fa fa-github-square fa-3x pull-left"></i>
-							<p>The source code for all GDI class materials featured here is freely available on GitHub: <a href="https://github.com/rlewis2892/girl-develop-it" target="_blank">https://github.com/rlewis2892/girl-develop-it</a></p>
-						</div>
+					<aside class="alert alert-info">
+						<i class="fa fa-github-square fa-3x pull-left"></i>
+						<p>The source code for all GDI class materials featured here is freely available on GitHub: <a class="alert-link" href="https://github.com/rlewis2892/girl-develop-it" target="_blank">https://github.com/rlewis2892/girl-develop-it</a></p>
+						<div class="clearfix"></div>
 					</aside>
 				</div>
 			</main>
