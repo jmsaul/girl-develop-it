@@ -44,7 +44,7 @@
 				<div class="container">
 					<section class="well">
 						<h2>Intro to Web Concepts</h2>
-						<a href="/intro-web-concepts" class="btn btn-info btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+						<a href="/intro-web-concepts" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 						<a href="/intro-web-concepts/pdf/IntroWebConcepts.pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 					</section>
 					<section class="well">
@@ -52,29 +52,29 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<h4>Session 1</h4>
-								<a href="/" class="btn btn-info btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+								<a href="/" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 								<a href="/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 							<div class="col-sm-6">
 								<h4>Session 2</h4>
-								<a href="/" class="btn btn-info btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+								<a href="/" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 								<a href="/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-6">
 								<h4>Session 3</h4>
-								<a href="/" class="btn btn-info btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+								<a href="/" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 								<a href="/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 							<div class="col-sm-6">
 								<h4>Session 4</h4>
-								<a href="/" class="btn btn-info btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+								<a href="/" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 								<a href="/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 						</div>
 					</section>
-					<aside class="alert alert-info">
+					<aside class="alert alert-gray">
 						<i class="fa fa-github-square fa-3x pull-left"></i>
 						<p>The source code for all GDI class materials featured here is freely available on GitHub: <a class="alert-link" href="https://github.com/rlewis2892/girl-develop-it" target="_blank">https://github.com/rlewis2892/girl-develop-it</a></p>
 						<div class="clearfix"></div>

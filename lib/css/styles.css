@@ -13,6 +13,16 @@ a.btn {
 }
 
 /*********************************************
+ * UTILITY STYLES
+ *********************************************/
+.alert-gray {
+	background: #eee;
+	border-color: #bbb;
+	border-radius: 0;
+	color: #555;
+}
+
+/*********************************************
  * WELL STYLES
  *********************************************/
 .well {
@@ -48,20 +58,28 @@ footer a:hover {
 	text-decoration: none;
 }
 
-@media only screen and (min-width: 768px) {
-	footer .logo {
-		float: right;
-	}
-}
-
 div.social-icons {
 	margin-bottom: 20px;
+}
+
+.social-icons a {
+	color: #F95C5E;
+}
+
+.social-icons a:hover {
+	color: #EB3259;
 }
 
 .social-icn[alt="meetup"] {
 	width: 40px;
 	padding-top: 3px;
 	margin-left: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+	footer .logo {
+		float: right;
+	}
 }
 
 /***
