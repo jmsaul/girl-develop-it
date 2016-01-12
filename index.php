@@ -48,14 +48,13 @@
 			<header>
 				<div class="container">
 					<img class="img-responsive logo" src="intro-web-concepts/css/images/white-logo.png" alt="girl develop it logo">
-					<!--<div class="header-text">Class Materials</div>-->
 				</div>
 			</header>
 			<main>
 				<div class="container">
 					<section class="well">
 						<h2>Intro to Web Concepts</h2>
-						<a href="/intro-web-concepts" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+						<a href="/intro-web-concepts" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 						<a href="/intro-web-concepts/pdf/IntroWebConcepts.pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 					</section>
 					<section class="well">
@@ -63,25 +62,25 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<h4>Session 1</h4>
-								<a href="/" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
-								<a href="/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
+								<a href="/intro-html-css/class-1" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+								<a href="/intro-html-css/pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 							<div class="col-sm-6">
 								<h4>Session 2</h4>
-								<a href="/" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
-								<a href="/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
+								<a href="/intro-html-css/class-2" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+								<a href="/intro-html-css/pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-6">
 								<h4>Session 3</h4>
-								<a href="/" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
-								<a href="/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
+								<a href="/intro-html-css/class-3" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+								<a href="/intro-html-css/pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 							<div class="col-sm-6">
 								<h4>Session 4</h4>
-								<a href="/" class="btn btn-default btn-lg"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
-								<a href="/" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
+								<a href="/intro-html-css/class-4" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
+								<a href="/intro-html-css/pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 						</div>
 					</section>
