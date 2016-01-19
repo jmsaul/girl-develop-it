@@ -92,10 +92,9 @@
 				<section class="left-align">
 					<h3>The CSS Rule:</h3>
 <pre>
-
-<code class="html">selector {</code><br>
-  <code class="html">property: value;</code><br>
-<code class="html">}</code>
+selector {
+  property: value;
+}
 
 </pre>
 					<ul>
@@ -116,14 +115,13 @@
 						<li>Declarations end with a semicolon</li>
 						<li>Declaration groups are surrounded by curly brackets.</li>
 					</ul>
-
 <pre>
 
-<code class="html">selector {</code><br>
-  <code class="html">property: value;</code><br>
-  <code class="html">property: value;</code><br>
-  <code class="html">property: value;</code><br>
-<code class="html">}</code>
+selector {
+  property: value;
+  property: value;
+  property: value;
+}
 </pre>
 				</section>
 
@@ -134,15 +132,16 @@
 						<br>
 						<p>Selects all paragraph elements.</p>
 <pre>
-<code class="html">p {</code><br>
-  <code class="html">property: value;</code><br>
-<code class="html">}</code><br>
+p {
+  property: value;
+}
 </pre>
 						<p>Selects all image elements.</p>
 <pre>
-<code class="html">img {</code><br>
-  <code class="html">property: value;</code><br>
-<code class="html">}</code>
+
+img {
+  property: value;
+}
 </pre>
 					</div>
 				</section>
@@ -153,14 +152,14 @@
 					<div class="left-align">
 						<p>Selects all elements with an id of "footer".</p>
 <pre>
-<code class="html">#footer {</code><br>
-  <code class="html">property: value;</code><br>
-<code class="html">}</code>
+#footer {
+  property: value;
+}
 
 </pre>
 						<p>The associated HTML.</p>
 <pre>
-<code class="html">&lt;p id="footer"&gt;Copyright 2011&lt;/p&gt;</code>
+&lt;p id="footer"&gt;Copyright 2011&lt;/p&gt;
 </pre>
 					</div>
 				</section>
@@ -171,15 +170,15 @@
 					<div class="left-align">
 						<p>Selects all elements with a class of "warning".</p>
 <pre>
-<code class="html">.warning {</code><br>
-  <code class="html">color: red;</code><br>
-<code class="html">}</code>
+.warning {
+  color: red;
+}
 
 </pre>
 
 						<p>The associated HTML.</p>
 <pre>
-<code class="html">&lt;p class="warning"&gt;Run away!&lt;/p&gt;</code>
+&lt;p class="warning"&gt;Run away!&lt;/p&gt;
 </pre>
 					</div>
 				</section>
@@ -235,7 +234,7 @@ p {
 				<!-- Color-->
 				<section>
 					<h3>Property: Color</h3>
-					<p>The <span class="yellow">color</span> property changes the color of the text.</p>
+					<p>The <span class="yellow">color</span> property changes the color of the text and borders.</p>
 <pre>
 p {
   color: red;
@@ -244,94 +243,102 @@ p {
 }
 
 </pre>
-					<p>Color name</p>
-					<p>Hexadecimal value</p>
-					<p>RGB value</p>
-					<p>
-						<small>The 17 standard colors are: <font color="aqua" style="background:black;">aqua</font>, <font
-							color="black">black</font>, <font color="blue">blue</font>, <font color="fuchsia">fuchsia</font>,
-							<font color="gray">gray</font>, <font color="grey">grey</font>, <font color="green">green</font>,
-							<font color="lime">lime</font>, <font color="maroon">maroon</font>, <font color="navy">navy</font>,
-							<font color="olive">olive</font>, <font color="purple">purple</font>, <font color="red">red</font>,
-							<font color="silver" style="background:black;">silver</font>, <font color="teal">teal</font>, <font
-								color="white" style="background:black;">white</font>, and <font color="yellow"
-																													 style="background:black;">yellow</font>.
-						</small>
-					</p>
+					<div class="left-align">
+						<p>Colors can be set via:</p>
+						<ul>
+							<li>Color name</li>
+							<li>Hexadecimal value</li>
+							<li>RGB/RGBA value</li>
+						</ul>
+						<p>...and more.</p>
+					</div>
+					<br>
+					<p>The standard X11 color scheme names can be found here: <a href="http://www.graphviz.org/doc/info/colors.html#x11" target="_blank">http://www.graphviz.org/doc/info/colors.html#x11</a></p>
 
 				</section>
 
 				<!-- Background color-->
 				<section>
 					<h3>Property: Background-color</h3>
-					<p>The background-color property changes the color of the background.</p>
-<pre><code class="html">
-	p {
-	background-color: black;
-	background-color: #000000;
-	background-color: rgb(0,0,0);
-	}
-</code></pre>
+					<p>The <span class="yellow">background-color</span> property changes the color of the background.</p>
+<pre>
+
+p {
+  background-color: black;
+  background-color: #000000;
+  background-color: rgb(0,0,0);
+}
+</pre>
 				</section>
 
 				<!-- Font family-->
 				<section>
 					<h3>Property: Font-family</h3>
-					<p>The font-family property deﬁnes which font is used.</p>
-<pre><code class="html">
-	p {
-	font-family: "Times New Roman";
-	font-family: serif;
-	font-family: "Arial", sans-serif;
-	}
-</code></pre>
-					<p>Specific font name</p>
-					<p>Generic name</p>
-					<p>Comma-separated list</p>
+					<p>The <span class="yellow">font-family</span> property defines which font is used.</p>
+<pre>
+
+p {
+  font-family: "Times New Roman";
+  font-family: serif;
+  font-family: "Helvetica", Arial, sans-serif;
+}
+
+</pre>
+					<ul>
+						<li>Specific font name</li>
+						<li>Generic name</li>
+						<li>Comma-separated list</li>
+					</ul>
 				</section>
 
 				<!-- Font size -->
 				<section>
 					<h3>Property: Font-size</h3>
-					<p>The font-size property speciﬁes the size of the font.</p>
-<pre><code class="html">
-	p {
-	font-size: 12px;
-	font-size: 1.5em;
-	font-size: 100%;
-	}
-</code></pre>
-					<p>Pixels</p>
-					<p>"em"</p>
-					<p>Percentage</p>
+					<p>The <span class="yellow">font-size</span> property specifies the size of the font.</p>
+<pre>
+p {
+  font-size: 12px;
+  font-size: 1.5em;
+  font-size: 100%;
+}
+
+</pre>
+					<ul>
+						<li>Pixels - px</li>
+						<li>em - a relative unit of measure</li>
+						<li>Percentage - %</li>
+					</ul>
 				</section>
 
 				<!-- Fonts-->
 				<section>
 					<h3>Property: Fonts (shorthand)</h3>
-<pre><code class="html">
-	p {
-	font-style: italic;
-	font-weight: bold;
-	font-size: 10px;
-	font-family: sans-serif;
-	}
-</code></pre>
+<pre>
+p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+</pre>
 					OR
-<pre><code class="html">
-	p {
-	font: italic bold 10px sans-serif;
-	}
-</code></pre>
+<pre>
+p {
+  font: italic bold 10px sans-serif;
+}
+</pre>
 				</section>
 
 				<!-- Connecting HTML to CSS-->
 				<section>
 					<h3>Connecting CSS to HTML</h3>
-					<p class="green">3 ways</p>
-					<p>"Inline"</p>
-					<p>"Embedded"</p>
-					<p>"External"</p>
+					<p class="yellow">3 ways to add CSS to your web site:</p>
+					<ul>
+						<li>"Inline"</li>
+						<li>"Embedded"</li>
+						<li>"External"</li>
+					</ul>
 				</section>
 
 				<!-- Inline -->
