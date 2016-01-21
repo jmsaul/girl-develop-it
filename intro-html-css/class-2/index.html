@@ -89,20 +89,22 @@
 					<img src="../images/cssrule.png" alt="The CSS Rule" style="border: none; box-shadow: none;"/>
 				</section>
 
-				<section class="left-align">
+				<section>
 					<h3>The CSS Rule:</h3>
-<pre>
+					<div class="left-align">
+						<pre>
 selector {
   property: value;
 }
 
 </pre>
-					<ul>
-						<li>A block of CSS code is a rule.</li>
-						<li>The rule starts with a selector.</li>
-						<li>It has sets of properties and values.</li>
-						<li>A property-value pair is a declaration.</li>
-					</ul>
+						<ul>
+							<li>A block of CSS code is a rule.</li>
+							<li>The rule starts with a selector.</li>
+							<li>It has sets of properties and values.</li>
+							<li>A property-value pair is a declaration.</li>
+						</ul>
+					</div>
 				</section>
 
 				<!-- CSS Syntax -->
@@ -135,10 +137,10 @@ selector {
 p {
   property: value;
 }
+
 </pre>
 						<p>Selects all image elements.</p>
 <pre>
-
 img {
   property: value;
 }
@@ -220,15 +222,23 @@ p em {
 					</div>
 				</section>
 
-				<!-- Multiple values -->
+				<!-- Properties-->
 				<section>
-					<h3>Property Values</h3>
-					<p>Some properties can have one or more comma separated values.</p>
-<pre>
-p {
-  font-family: Helvetica, Arial, sans-serif;
-}
-</pre>
+					<h3>CSS Properties</h3>
+					<p>Many CSS properties have self-explanatory names:</p>
+					<ul>
+						<li>background-color</li>
+						<li>font-family</li>
+						<li>font-size</li>
+						<li>color</li>
+						<li>width</li>
+						<li>height</li>
+					</ul>
+					<p>
+						<br>
+						<a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">Comprehensive list of all CSS
+						properties</a>
+					</p>
 				</section>
 
 				<!-- Color-->
@@ -291,6 +301,17 @@ p {
 					</ul>
 				</section>
 
+				<!-- Multiple values -->
+				<section>
+					<h3>Property Values</h3>
+					<p>Some properties, like font-family, can have one or more comma separated values.</p>
+<pre>
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+</pre>
+				</section>
+
 				<!-- Font size -->
 				<section>
 					<h3>Property: Font-size</h3>
@@ -311,7 +332,7 @@ p {
 				</section>
 
 				<!-- Fonts-->
-   0				<section>
+				<section>
 					<h3>Property: Fonts (shorthand)</h3>
 <pre>
 p {
@@ -343,45 +364,60 @@ p {
 
 				<!-- Inline -->
 				<section>
-					<h3>Connecting CSS to HTML: Inline</h3>
-<pre><code class="html">
-	&lt;p style="color:red;">Some text.&lt;/p>
-</code></pre>
-					<p>Uses the HTML attribute style.</p>
-					<p>Difficult to use in large projects</p>
-					<p>Not preferred.</p>
+					<h3>Inline CSS</h3>
+<pre>
+
+	&lt;p style="color:red;"&gt;Some text.&lt;/p&gt;
+
+</pre>
+					<ul>
+						<li>CSS is added directly to thew HTML element</li>
+						<li>Uses the <code class="yellow">style</code> HTML attribute</li>
+						<li>Difficult to use and maintain in large projects</li>
+						<li><strong class="yellow">NOT preferred! Considered a bad practice.</strong></li>
+					</ul>
 				</section>
 
 				<!-- Embedded -->
 				<section>
-					<h3>Connecting CSS to HTML: Embedded</h3>
-<pre><code class="html">
-	&lt;head>
-	&lt;style type="text/css">
-	p {
-	color: blue;
-	font-size: 12px;
-	}
-	&lt;/style>
-	&lt;/head>
-</code></pre>
-					<p>Inside &lt;head> element.</p>
-					<p>Uses &lt;style> tag.</p>
-					<p>Can only be used in one html file</p>
+					<h3>Embedded CSS</h3>
+<pre>
+
+&lt;head&gt;
+  &lt;style type="text/css"&gt;
+    p {
+      color: blue;
+      font-size: 12px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+</pre>
+					<ul>
+						<li>CSS is written inside the HTML &lt;head&gt; element.</li>
+						<li>Uses the &lt;style&gt; tag.</li>
+						<li>The CSS rules only apply to the HTML document they are in.</li>
+					</ul>
 				</section>
 
 				<!-- External-->
 				<section>
-					<h3>Connecting CSS to HTML: Linked</h3>
-<pre><code class="html">
-	&lt;head>
-	&lt;link rel="stylesheet" type="text/css" href="style.css">
-	&lt;/head>
-</code></pre>
-					<p>Shared resource for several pages.</p>
-					<p>Reduced ﬁle size &amp; bandwidth</p>
-					<p>Easy to maintain in larger projects.</p>
-					<p>Preferred by developers everywhere!</p>
+					<h3>Linked CSS Files</h3>
+<pre>
+
+&lt;head&gt;
+  &lt;link rel="stylesheet" type="text/css" href="css/style.css" /&gt;
+&lt;/head&gt;
+
+</pre>
+					<ul>
+						<li>A separate CSS file is linked to a web page in the HTML &lt;head&gt; tag</li>
+						<li>Uses the <span class="yellow">&lt;link /&gt;</span> tag</li>
+						<li>The CSS file can be a shared resource for many pages at a time</li>
+						<li>Reduces ﬁle size &amp; bandwidth</li>
+						<li>Easy to scale and maintain in larger projects</li>
+						<li><strong class="yellow">Preferred by developers everywhere!</strong></li>
+					</ul>
 				</section>
 
 				<!-- Exercise-->
@@ -389,8 +425,8 @@ p {
 					<h3>Let's develop it</h3>
 					<ul>
 						<li>Create a new .css file</li>
-						<li>Add a link to the file in the head of the portfolio made last time</li>
-						<li>Add styles to change the colors, background colors or fonts of different parts of the content</li>
+						<li>Add a link to the file in the &lt;head&gt; of the HTML document we made last time</li>
+						<li>Add styles to change the colors, background colors, and fonts of different parts of your content</li>
 						<li>Try using ids and classes to change specific elements</li>
 					</ul>
 				</section>
@@ -399,44 +435,39 @@ p {
 				<section>
 					<h3>Cascading</h3>
 					<p>Styles "cascade" down until changed</p>
-<pre><code class="html">
-	p {
-	color: blue;
-	font-family: 'Helvetica';
-	}
-	.red {
-	color: red;
-	}
-	#special {
-	font-family: Arial;
-	}
-</code></pre>
+					<div class="left-align yellow"><strong>CSS:</strong></div>
+<pre>
 
-<pre><code class="html">
-	&lt;p>Paragraph&lt;/p>
-	&lt;p class="green">Paragraph&lt;/p>
-	&lt;p class="red">Paragraph&lt;/p>
-	&lt;p class="red" id="special">Paragraph&lt;/p>
-</code></pre>
+p {
+  color: blue;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+#special {
+  background: #000000;
+}
+
+</pre>
+					<div class="left-align yellow"><strong>HTML:</strong></div>
+<pre>
+
+&lt;h2&gt;My Heading&lt;/h2&gt;
+&lt;p class="green"&gt;Paragraph One&lt;/p&gt;
+&lt;p class="red"&gt;Paragraph Two&lt;/p&gt;
+&lt;p class="red" id="special"&gt;Paragraph Three&lt;/p&gt;
+
+</pre>
 				</section>
 
-				<!-- Properties-->
-				<section>
-					<h3>CSS Properties</h3>
-					<p>Many CSS properties have self-explanatory names:</p>
-					<ul>
-						<li>background-color</li>
-						<li>font-family</li>
-						<li>font-size</li>
-						<li>color</li>
-						<li>width</li>
-						<li>height</li>
-					</ul>
-					<p><a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">Comprehensive list of all CSS
-						properties</a></p>
-				</section>
-
-				<!-- Question-->
+				<!-- Questions-->
 				<section>
 					<h2>Questions?</h2>
 					<div style="font-size:1200%; height:100%; margin-top:30%" class="blue">?
@@ -447,10 +478,7 @@ p {
 
 			<footer>
 				<div class="copyright">
-					HTML/CSS ~ Girl Develop It ~
-					<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img
-						alt="Creative Commons License" style="border-width:0"
-						src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png"/></a>
+					HTML/CSS ~ Girl Develop It ~ <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png"/></a>
 				</div>
 			</footer>
 		</div>
