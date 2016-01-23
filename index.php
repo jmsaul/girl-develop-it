@@ -68,7 +68,7 @@
 							<div class="col-sm-6">
 								<h4>Session 2</h4>
 								<a href="/intro-html-css/class-2" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
-								<a href="/intro-html-css/pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
+								<a href="/intro-html-css/pdf/gdiabq2016-intro-html-css-2.pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
 						</div>
 						<div class="row">
