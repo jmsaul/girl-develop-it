@@ -67,14 +67,16 @@
 				<!-- What is CSS-->
 				<section>
 					<h3>CSS: What is it?</h3>
-					<p>CSS = <span class="yellow">C</span>ascading <span class="yellow">S</span>tyle <span class="yellow">S</span>heets</p>
-					<p>CSS is a "style sheet language" that lets you style the elements on your page.</p>
-					<p>CSS works in conjunction with HTML, but is not HTML itself.</p>
+					<div class="left-align">
+						<p>CSS = <span class="yellow">C</span>ascading <span class="yellow">S</span>tyle <span class="yellow">S</span>heets</p>
+						<p>CSS is a "style sheet language" that lets you add <strong>style</strong> to the HTML elements on your page.</p>
+						<p>CSS works in conjunction with HTML, but it is not HTML itself.</p>
+					</div>
 				</section>
 
 				<section>
 					<h3>CSS: What can it do?</h3>
-					<p>All colored text, position, and size</p>
+					<p>All colored text, page layout, element positions, and sizes.</p>
 					<img src="../images/homepage-view.png">
 				</section>
 
@@ -85,12 +87,12 @@
 
 				<!-- The CSS Rule-->
 				<section>
-					<h3>The CSS Rule</h3>
+					<h3>The CSS "Rule"</h3>
 					<img src="../images/cssrule.png" alt="The CSS Rule" style="border: none; box-shadow: none;"/>
 				</section>
 
 				<section>
-					<h3>The CSS Rule:</h3>
+					<h3>The CSS "Rule":</h3>
 					<div class="left-align">
 						<pre>
 selector {
@@ -99,22 +101,36 @@ selector {
 
 </pre>
 						<ul>
-							<li>A block of CSS code is a rule.</li>
-							<li>The rule starts with a selector.</li>
-							<li>It has sets of properties and values.</li>
-							<li>A property-value pair is a declaration.</li>
+							<li>A "block" of CSS code is a <strong>rule</strong>.</li>
+							<li>A rule starts with a <strong>selector</strong>.</li>
+							<li>A rule has sets of <strong>properties</strong> and <strong>values</strong>.</li>
+							<li>A property-value pair is a <strong>declaration</strong>.</li>
 						</ul>
 					</div>
 				</section>
 
-				<!-- CSS Syntax -->
+				<!-- CSS Syntax: selector-->
 				<section>
 					<h3>CSS Syntax</h3>
 					<div class="left-align">
-						<p>Declarations: Property and value of style you plan use on HTML element. </p>
+						<p>The <strong>selector</strong> is how we choose an HTML element, or elements, to apply CSS <strong>declarations</strong> (properties and values) to.</p>
+					</div>
+<pre>
+
+selector {
+  property: value;
+}
+</pre>
+				</section>
+
+				<!-- CSS Syntax: declaration -->
+				<section>
+					<h3>CSS Syntax</h3>
+					<div class="left-align">
+						<p><strong>Declarations</strong> contain the <strong>property and value</strong> of a CSS style you plan use on an HTML element, or elements.</p>
 					</div>
 					<ul>
-						<li>Declarations end with a semicolon</li>
+						<li>Declarations always end with a semicolon.</li>
 						<li>Declaration groups are surrounded by curly brackets.</li>
 					</ul>
 <pre>
@@ -127,9 +143,23 @@ selector {
 </pre>
 				</section>
 
+				<!--Types of CSS Selectors-->
+				<section>
+					<h3>CSS Selectors</h3>
+					<div class="left-align">
+						<p>There are four types of CSS Selectors we will cover today:</p>
+						<ol>
+							<li>Element Selectors</li>
+							<li>Id Selectors</li>
+							<li>Class Selectors</li>
+							<li>Descendant Selectors</li>
+						</ol>
+					</div>
+				</section>
+
 				<!-- Selectors elements-->
 				<section>
-					<h3>Selector: Element</h3>
+					<h3>Element Selector</h3>
 					<div class="left-align">
 						<br>
 						<p>Selects all paragraph elements.</p>
@@ -150,9 +180,9 @@ img {
 
 				<!-- Selectors ID-->
 				<section>
-					<h3>Selector: ID</h3>
+					<h3>id Selector</h3>
 					<div class="left-align">
-						<p>Selects all elements with an id of "footer".</p>
+						<p>Selects all HTML elements with an id of "footer".</p>
 <pre>
 #footer {
   property: value;
@@ -168,9 +198,9 @@ img {
 
 				<!-- Selectors Class-->
 				<section>
-					<h3>Selector: Class</h3>
+					<h3>Class Selector</h3>
 					<div class="left-align">
-						<p>Selects all elements with a class of "warning".</p>
+						<p>Selects all HTML elements with a class of "warning".</p>
 <pre>
 .warning {
   color: red;
@@ -189,7 +219,7 @@ img {
 				<section>
 					<h3>IDs vs. Classes</h3>
 					<div class="left-align">
-						<span class="yellow">Id</span> - Should only apply to ONE unique element on a webpage. i.e., a webpage only has one footer.
+						<span class="yellow">Ids</span> - Should only apply to ONE unique element on a webpage. i.e., a webpage only has one footer.
 						<ul>
 							<li>The "#" is how you tell CSS "this is an id."</li>
 						</ul>
@@ -205,9 +235,9 @@ img {
 
 				<!-- Selector descendant-->
 				<section>
-					<h3>Selector: Descendant</h3>
+					<h3>Descendant Selector</h3>
 					<div class="left-align">
-						<p>Selects all &lt;em&gt; elements that are within paragraphs.</p>
+						<p>Selects all &lt;em&gt; elements that are inside &lt;p&gt; tags.</p>
 <pre>
 p em {
   color: yellow;
@@ -244,11 +274,17 @@ p em {
 				<!-- Color-->
 				<section>
 					<h3>Property: Color</h3>
-					<p>The <span class="yellow">color</span> property changes the color of the text and borders.</p>
+					<p>The <span class="yellow">color</span> property changes the color of text.</p>
 <pre>
 p {
   color: red;
+}
+
+div {
   color: #ff0000;
+}
+
+h2 {
   color: rgb(255, 0, 0);
 }
 
@@ -258,12 +294,12 @@ p {
 						<ul>
 							<li>Color name</li>
 							<li>Hexadecimal value</li>
-							<li>RGB/RGBA value</li>
+							<li>RGB and RGBA values</li>
+							<li>...and more.</li>
 						</ul>
-						<p>...and more.</p>
 					</div>
 					<br>
-					<p>The standard X11 color scheme names can be found here: <a href="http://www.graphviz.org/doc/info/colors.html#x11" target="_blank">http://www.graphviz.org/doc/info/colors.html#x11</a></p>
+					<p>For web-friendly color names, refer to the Standard X11 Color Scheme names here: <a href="https://en.wikipedia.org/wiki/X11_color_names#Color_name_chart" target="_blank">Wikipedia: X11 Color Names</a></p>
 
 				</section>
 
@@ -274,9 +310,7 @@ p {
 <pre>
 
 p {
-  background-color: black;
   background-color: #000000;
-  background-color: rgb(0,0,0);
 }
 </pre>
 				</section>
@@ -288,26 +322,26 @@ p {
 <pre>
 
 p {
-  font-family: "Times New Roman";
-  font-family: serif;
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: Arial;
 }
 
 </pre>
+					<p>You can declare font families in the following ways:</p>
 					<ul>
-						<li>Specific font name</li>
-						<li>Generic name</li>
-						<li>Comma-separated list</li>
+						<li>By specific font name</li>
+						<li>By generic font name</li>
+						<li>With a comma-separated list</li>
 					</ul>
 				</section>
 
 				<!-- Multiple values -->
 				<section>
-					<h3>Property Values</h3>
-					<p>Some properties, like font-family, can have one or more comma separated values.</p>
+					<h3>Font Family - Multiple Values</h3>
+					<p>With <strong>font-family</strong>, you can create a comma-separated list of different font names. This will create "fallbacks" that the browser can load in case a specific font style is unavailable.</p>
 <pre>
+
 p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
 }
 </pre>
 				</section>
@@ -318,14 +352,20 @@ p {
 					<p>The <span class="yellow">font-size</span> property specifies the size of the font.</p>
 <pre>
 p {
-  font-size: 12px;
+  font-size: 14px;
+}
+
+h3 {
   font-size: 1.5em;
-  font-size: 100%;
+}
+
+.warning {
+  font-size: 80%;
 }
 
 </pre>
 					<ul>
-						<li>Pixels - px</li>
+						<li>Pixels - px. A set pixel value.</li>
 						<li>em - a relative unit of measure</li>
 						<li>Percentage - %</li>
 					</ul>
@@ -334,6 +374,7 @@ p {
 				<!-- Fonts-->
 				<section>
 					<h3>Property: Fonts (shorthand)</h3>
+					<p>You can set more than one font style property at a time using the <strong>font</strong> property.</p>
 <pre>
 p {
   font-style: italic;
@@ -341,25 +382,26 @@ p {
   font-size: 10px;
   font-family: sans-serif;
 }
-
 </pre>
 					OR
 <pre>
 p {
   font: italic bold 10px sans-serif;
 }
+
 </pre>
+					<p>Full documentation on the font property can be found here: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font" target="_blank">MDN: font CSS property</a>.</p>
 				</section>
 
 				<!-- Connecting HTML to CSS-->
 				<section>
 					<h3>Connecting CSS to HTML</h3>
 					<p class="yellow">3 ways to add CSS to your web site:</p>
-					<ul>
+					<ol>
 						<li>"Inline"</li>
 						<li>"Embedded"</li>
 						<li>"External"</li>
-					</ul>
+					</ol>
 				</section>
 
 				<!-- Inline -->
@@ -371,7 +413,7 @@ p {
 
 </pre>
 					<ul>
-						<li>CSS is added directly to thew HTML element</li>
+						<li>CSS is added directly to an HTML element</li>
 						<li>Uses the <code class="yellow">style</code> HTML attribute</li>
 						<li>Difficult to use and maintain in large projects</li>
 						<li><strong class="yellow">NOT preferred! Considered a bad practice.</strong></li>
@@ -397,6 +439,7 @@ p {
 						<li>CSS is written inside the HTML &lt;head&gt; element.</li>
 						<li>Uses the &lt;style&gt; tag.</li>
 						<li>The CSS rules only apply to the HTML document they are in.</li>
+						<li><span class="yellow">Use with caution. Generally not a preferred method to add CSS to web sites.</span></li>
 					</ul>
 				</section>
 
@@ -424,8 +467,8 @@ p {
 				<section class="hide-pdf">
 					<h3>Let's develop it</h3>
 					<ul>
-						<li>Create a new .css file</li>
-						<li>Add a link to the file in the &lt;head&gt; of the HTML document we made last time</li>
+						<li>Create a new CSS file in your HTML project folder called <span class="yellow">style.css</span></li>
+						<li>Add a &lt;link /&gt; to the file in the &lt;head&gt; of your HTML document</li>
 						<li>Add styles to change the colors, background colors, and fonts of different parts of your content</li>
 						<li>Try using ids and classes to change specific elements</li>
 					</ul>
@@ -434,7 +477,7 @@ p {
 				<!-- Cascading-->
 				<section>
 					<h3>Cascading</h3>
-					<p>Styles "cascade" down until changed</p>
+					<p>Styles "cascade" down. Order matters!</p>
 					<div class="left-align yellow"><strong>CSS:</strong></div>
 <pre>
 
