@@ -41,7 +41,7 @@
 			ga('send', 'pageview');
 		</script>
 
-		<title>Girl Develop It Class Materials</title>
+		<title>Girl Develop It: Class Materials</title>
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
