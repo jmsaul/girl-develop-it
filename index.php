@@ -58,7 +58,8 @@
 						<a href="/intro-web-concepts/pdf/IntroWebConcepts.pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 					</section>
 					<section class="well">
-						<h2>Intro to HTML &amp; CSS Series (Instructors:  Jeff Saul &amp; Elaine Thomas  August 2016</h2>
+						<h2>Intro to HTML &amp; CSS Series </h2>
+						<h3>Instructors:  Jeff Saul &amp; Elaine Thomas  --- August 2016</h3>
 						<div class="row">
 							<div class="col-sm-6">
 								<h4>Session 1</h4>
