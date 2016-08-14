@@ -59,7 +59,7 @@
 					</section>
 					<section class="well">
 						<h2>Intro to HTML &amp; CSS Series </h2>
-						<h3>Instructors:  Jeff Saul (<a href="mailto:jsaul@webmansaul.com">jsaul@webmansaul.com<a/>) &amp; Elaine Thomas  <br/> --- August 2016</h3>
+						<h3>Instructors:  Jeff Saul (<a href="mailto:jsaul@webmansaul.com">jsaul@webmansaul.com</a>) &amp; Elaine Thomas  <br/> --- August 2016</h3>
 						<div class="row">
 							<div class="col-sm-6">
 								<h4>Session 1</h4>
