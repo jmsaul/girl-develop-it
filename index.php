@@ -61,12 +61,12 @@
 						<h2>Intro to HTML &amp; CSS Series </h2>
 						<h3>Instructors:  Jeff Saul (<a href="mailto:jsaul@webmansaul.com">jsaul@webmansaul.com</a>) &amp; Elaine Thomas --- August 2016</h3>
 						<div class="row">
-							<div class="col-sm-6">
+							<div class="col-sm-4">
 								<h4>Session 1</h4>
 								<a href="/intro-html-css/class-1" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 								<a href="/intro-html-css/pdf/gdiabq2016-intro-html-css-1.pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-sm-4">
 								<h4>Session 2</h4>
 								<a href="/intro-html-css/class-2" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 								<a href="/intro-html-css/pdf/gdiabq2016-intro-html-css-2.pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
