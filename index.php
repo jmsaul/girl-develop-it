@@ -73,12 +73,12 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-sm-6">
+							<div class="col-sm-4">
 								<h4>Session 3</h4>
 								<a href="/intro-html-css/class-3" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 								<a href="/intro-html-css/pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-sm-4">
 								<h4>Session 4</h4>
 								<a href="/intro-html-css/class-4" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Slides</a>
 								<a href="/intro-html-css/pdf" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-file-text-o"></i>&nbsp;Supplement (pdf)</a>
